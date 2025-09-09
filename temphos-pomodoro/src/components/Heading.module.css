@@ -1,8 +1,6 @@
 .heading {
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.cyan {
-    color: cyan;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
 }
