@@ -9,4 +9,10 @@
     border:none;
     height: 40px;
     width: 40px;
+    
 }
+
+button:hover {
+      background: var(--primary-light);
+      cursor: pointer;
+    }

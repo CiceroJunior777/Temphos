@@ -1,6 +1,9 @@
 import { HistoryIcon, HomeIcon, SettingsIcon, SunIcon, TimerIcon } from "lucide-react";
 import { Heading } from "../components/Heading";
 import { Button } from "../components/Button";
+import { Timer } from "../components/Timer";
+import { Paragraph } from "../components/Paragraph";
+import { Input } from "../components/Input";
 
 
 export function Home() {
@@ -21,6 +24,15 @@ export function Home() {
                 <Button> <SunIcon /> </Button>
             </Heading>
 
+            <Timer>
+                00:00
+            </Timer>
+
+            <Paragraph>
+                task
+            </Paragraph>
+
+            <Input />
         </>
     )
 }   
