@@ -4,13 +4,13 @@
   text-align: center;
   align-items: center;
   padding-top: 20px;
-  width: 100%;              /* ajuste conforme necessário */
-  background: transparent;  /* sem fundo */
-  border: none;             /* sem bordas */
+  width: 100%; /* ajuste conforme necessário */
+  background: transparent; /* sem fundo */
+  border: none; /* sem bordas */
   border-bottom: 2px solid var(--primary); /* divisor inferior */
   font-size: 16px;
   line-height: 1.2;
   transition: border-color 180ms ease, box-shadow 180ms ease;
-  outline: none;            /* remove a borda padrão do navegador */
-  color: var(--gray-100)
+  outline: none; /* remove a borda padrão do navegador */
+  color: var(--gray-100);
 }
