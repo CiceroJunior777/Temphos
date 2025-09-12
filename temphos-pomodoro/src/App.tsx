@@ -1,8 +1,7 @@
 import './styles/theme.css';
 import './styles/global.css';
+import { Home } from './Pages/Home';
 
 export function App() {
-    return (
-    <h1>Olá Mundo</h1>
-);
+    return (<Home />);
 }   
