@@ -1,51 +1,23 @@
-import {
-  HistoryIcon,
-  HomeIcon,
-  SettingsIcon,
-  SunIcon,
-  TimerIcon,
-} from "lucide-react";
-import { Heading } from "../components/Heading";
-import { Button } from "../components/Button";
-import { Timer } from "../components/Timer";
-import { Paragraph } from "../components/Paragraph";
-import { Input } from "../components/Iput";
+import { Input } from "../components/Input";
 import { Container } from "../components/Container";
+import { Logo } from "../components/Logo";
+import { Menu } from "../components/Menu";
+import { CountDown } from "../components/CountDown";
 
 export function Home() {
   return (
     <>
       <Container>
-        <Heading>
-          {" "}
-          <TimerIcon size={45} />{" "}
-        </Heading>
+        <Logo />
       </Container>
 
-      <Heading>Temphos</Heading>
+      <Container>
+        <Menu />
+      </Container>
 
-      <Heading>
-        <Button>
-          {" "}
-          <HomeIcon />{" "}
-        </Button>
-        <Button>
-          {" "}
-          <HistoryIcon />{" "}
-        </Button>
-        <Button>
-          {" "}
-          <SettingsIcon />{" "}
-        </Button>
-        <Button>
-          {" "}
-          <SunIcon />{" "}
-        </Button>
-      </Heading>
-
-      <Timer>00:00</Timer>
-
-      <Paragraph>task</Paragraph>
+      <Container>
+        <CountDown />
+      </Container>
 
       <Input />
     </>

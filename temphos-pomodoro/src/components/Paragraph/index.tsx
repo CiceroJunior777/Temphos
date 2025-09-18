@@ -1,9 +1,9 @@
-import style from "./Paragraph.module.css";
+import styles from "./Styles.module.css";
 
 type ParagraphProps = {
   children: React.ReactNode;
 };
 
 export function Paragraph({ children }: ParagraphProps) {
-  return <p className={style.paragraph}> {children} </p>;
+  return <p className={styles.paragraph}> {children} </p>;
 }
